@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap');
+
+:root {
+  --bg-pink: #ebbfce;
+  --dot-color: #555555;
+  --text: #000000;
+  --ai-bg: rgba(171, 138, 164, 0.7);
+  --user-bg: rgba(188, 204, 245, 0.7);
+  --input-bg: rgba(87, 84, 85, 0.7);
+  --panel-bg: rgba(255, 255, 255, 0.7);
+  --btn-white: rgba(255, 255, 255, 0.7);
+  --radius-lg: 24px;
+  --radius-md: 16px;
+  --radius-sm: 12px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  font-family: 'Manrope', system-ui, sans-serif;
+  color: var(--text);
+  -webkit-font-smoothing: antialiased;
+}
+
+button,
+textarea {
+  font-family: inherit;
+}
+
+a {
+  color: inherit;
+}

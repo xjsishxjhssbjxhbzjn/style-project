@@ -1,0 +1,39 @@
+.auth-status {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.auth-status__email {
+  font-size: 12px;
+  max-width: 140px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.auth-status__icon-btn {
+  border: none;
+  background: rgba(87, 84, 85, 0.25);
+  border-radius: 8px;
+  padding: 6px 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  transition: opacity 0.2s;
+}
+
+.auth-status__icon-btn:hover {
+  opacity: 0.85;
+}
+
+.auth-status .auth-form {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  margin-top: 8px;
+  z-index: 20;
+  min-width: 240px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}

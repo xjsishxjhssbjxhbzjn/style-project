@@ -1,0 +1,13 @@
+.dot-background {
+  min-height: 100%;
+  width: 100%;
+  background-color: var(--bg-pink);
+  background-image:
+    radial-gradient(circle, var(--dot-color) 4px, transparent 4px),
+    radial-gradient(circle, var(--dot-color) 4px, transparent 4px);
+  background-size: 48px 48px;
+  background-position:
+    0 0,
+    24px 24px;
+  background-repeat: repeat;
+}

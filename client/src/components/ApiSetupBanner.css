@@ -1,0 +1,12 @@
+.api-banner {
+  margin: 0 0 12px;
+  padding: 10px 14px;
+  border-radius: var(--radius-sm);
+  background: rgba(255, 200, 200, 0.85);
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+.api-banner code {
+  font-size: 12px;
+}
