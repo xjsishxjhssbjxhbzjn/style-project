@@ -1,0 +1,6 @@
+# Railway / Nixpacks: Node 22 for Vite 8, TS 7, React 19; install devDependencies during build (vite, tsc).
+# https://nixpacks.com/docs/configuration/file
+
+[variables]
+NIXPACKS_NODE_VERSION = "22"
+NIXPACKS_INSTALL_DEV_DEPS = "true"
